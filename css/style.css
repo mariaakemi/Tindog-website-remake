@@ -1,0 +1,159 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+h1{
+  color: #ffff;
+  font-size: 7.5rem;
+  margin: 0;
+}
+
+/* background image */
+.bg-img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* all components on the navbar */
+.navbar a{
+font-weight: 600;
+font-size: 1.3rem;
+}
+
+/* Navbar components when hovering */
+li:hover > a{
+  color: var(--bs-danger) !important;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+/* dropdown menu no default styles */
+ul .dropdown-menu{
+  border: none; 
+  --bs-dropdown-link-hover-bg: none; 
+  --bs-dropdown-link-active-bg: none;
+}
+
+/* dropdown specific style when hovering */
+.dropdown-item:hover{
+  text-decoration: none;
+}
+
+
+/* dropdown hover function*/
+@media (min-width: 576px){
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+  }
+  .dropdown-toggle::after{
+   visibility: hidden;
+  }
+
+ 
+}
+
+@media (max-width:991px){
+  h1{
+    font-size: 3.3rem;
+  }
+
+  a{
+    font-size: 1rem;
+  }
+  
+  .dropdown-item{
+    font-size: 1rem;
+  }
+
+  /* testimonials */
+  #testimonial p{
+    padding: 0 200px !important;
+  }
+
+}
+
+.btn-outline-light{
+  --bs-btn-hover-color: #ffffff9d;
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-border-color: none;
+}
+
+/* title */
+#title p{
+  color: white;
+}
+
+.container-text{
+  display: grid;
+ align-content: center;
+ justify-content: center;
+ height: 100vh;
+
+}
+
+.title-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-button{  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-footer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+.title-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* podcast link hovering transition */
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+/* features */
+#features p{
+  color: var(--bs-gray-700);
+}
+#features a{
+text-decoration: none;
+color: var(--bs-dark);
+}
+
+#features a:hover{
+  color: red;
+}
+
+
+/* footer */
+#footer {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  <link rel="icon" href="images/paw.png">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- icon brand -->
+  <script src="https://kit.fontawesome.com/03faf9704e.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <section id="navbar">
+
+    <!-- background image -->
+    <img src="images/Background-dogs.jpg" alt="Tindog background" class="bg-img">
+
+    <!-- black gradient on the top -->
+    <nav class="navbar navbar-expand-lg fixed-top pt-4 text-light" style="background:linear-gradient(to top, rgba(0,0,0,0), 30%, rgba(0,0,0,1) 80%);">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light fs-2 px-4" href="#"><i class="fa-solid fa-paw fs-1" style="color: #ffffff;"></i>tindog</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#testimonial" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu bg-transparent">
+                <li><a class="dropdown-item text-light" href="#testimonial">Premium Features</a></li>
+                <li><a class="dropdown-item text-light" href="#testimonial">Subscription Tiers</a>
+                  <li><a class="dropdown-item text-light" href="#testimonial">Tindog Plus<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-r-circle" viewBox="0 5 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.5 4.002h3.11c1.71 0 2.741.973 2.741 2.46 0 1.138-.667 1.94-1.495 2.24L11.5 12H9.98L8.52 8.924H6.836V12H5.5V4.002Zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417H6.835Z"></path>
+                  </svg></a></li>
+                  <li><a class="dropdown-item text-light" href="#testimonial">Tindog Gold<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                    <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+                  </svg></a></li>
+                  <li><a class="dropdown-item text-light" href="#testimonial">Tindog Platinium<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                    <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+                  </svg></a></li>
+                </li>
+                <li><a class="dropdown-item text-light" href="#testimonial">Swipe Night</a></li>
+              </ul>
+              </li>
+            
+            <li class="nav-item pe-2">
+              <a class="nav-link text-light" href="#features">Learn</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#footer1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Safety
+              </a>
+              <ul class="dropdown-menu bg-transparent">
+                <li><a class="dropdown-item text-light text-light" href="#footer-1">Community Guidelines</a></li>
+                <li><a class="dropdown-item text-light text-light" href="#footer-1">Safety Tips</a></li>
+                <li><a class="dropdown-item text-light" href="#footer-1">Safety & Policy</a></li>
+                <li><a class="dropdown-item text-light" href="#footer-1">Safety & Reporting</a></li>
+                <li><a class="dropdown-item text-light" href="#footer-1">Security</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item pe-2 fw-semibold">
+              <a class="nav-link text-light" href="#footer-1">Support</a>
+            </li>
+            
+            <li class="nav-item fw-semibold">
+              <a class="nav-link text-light" href="#pricing">Download</a>
+            </li>
+          </ul>
+
+          <div class="col-md-6 text-end me-2 mb-2 mb-lg-0">
+            <button type="button" class="btn btn-outline-light me-3 fw-semibold fs-5" style="border: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+              <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"></path>
+              <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"></path>
+            </svg> Language</button>
+            <button class="btn fw-semibold fs-5 btn-light rounded-4" type="submit" style="--bs-btn-padding-y: 0.1rem; 
+            --bs-btn-padding-x: 2rem;">
+              Log in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+  </section>
+
+  <!-- Title -->
+    <div class="container-text">
+      <div class="title-text">
+      <h1 class="fw-bold text-body-light bigger">Swipe Right<svg xmlns="http://www.w3.org/2000/svg" width="40" height="100" fill="currentColor" class="bi bi-r-circle" viewBox="0 5 16 16">
+        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.5 4.002h3.11c1.71 0 2.741.973 2.741 2.46 0 1.138-.667 1.94-1.495 2.24L11.5 12H9.98L8.52 8.924H6.836V12H5.5V4.002Zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417H6.835Z"></path>
+      </svg></h1>
+     </div>
+      <div class="title-button py-4">
+          <button type="button" class="py-3 px-5 fw-semibold btn btn-outline-light rounded-5" style="border: none;
+          background: linear-gradient(100deg, rgba(218,57,57,1) 59%, rgba(255,109,0,1) 100%);">Create Account</button>
+      </div>
+        <div class="title-footer zoom">
+        <a href="#"class="lead fst-italic fw-bold">Watch the new tindog's podcast
+          <p class="text-center" style="font-size: 1.5rem;">Dogcast</p>
+        </a>
+        </div>
+    </div>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container px-5 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom fw-semibold fst-italic fs-1">Features</h2>
+      <div class="row g-4 pt-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square rounded-3 text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="fa-solid fa-earth-americas p-2" style="color: #000000;"></i>
+          </div>
+          <div>
+            <h3 class="fw-semibold">Connect With Dogs Everywhere</h3>
+            <p class="fs-5">Go beyond your distance settings and chat with dogs around the world with our Passport™ feature. 
+              All it takes is an upgrade to a <a class="link">Tindog Plus®</a> subscription to be able to match anywhere from everywhere</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square rounded-3 text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-3 flex-shrink-0 me-3">
+            <i class="fa-solid fa-comments p-2" style="color: #000000;"></i>
+
+          </div>
+          <div>
+            <h3 class="fw-semibold">Explore Your Passions</h3>
+            <p class="fs-5">It's easy to chat up a match when you know you have something in common. The Tindog app 
+              lets you add Passions to your profile and connect with dogs who share your interests.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square rounded-3 text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-3 flex-shrink-0 me-3">
+            <i class="fa-solid fa-user-group p-2" style="color: #0d0d0d;"></i>
+          </div>
+          <div>
+            <h3 class="fw-semibold">Date Safer With Face to Face</h3>
+            <p class="fs-5">We're all eager to meet new dogs IRL, but dating during COVID-19 means putting your safety first. 
+              When six paw apart isn't enough, Face to Face lets you video chat with your match so you can keep the connection going online.</p>
+          </div>
+         </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonial -->
+  <section id="testimonial" >
+    <div id="carouselExampleIndicators" class="carousel slide text-center bg-light" data-bs-theme="dark">
+      <div class="carousel-indicators" >
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active pt-5">
+          <img class="rounded-circle shadow-1-strong mb-4"
+          src="images/shannon-pug.jpg" alt="avatar"
+          style="width: 120px;" />
+          <div class="row d-flex justify-content-center pb-5">
+            <div class="col-lg-8 pb-4">
+              <h5 class="fw-semibold">Shannon</h5>
+              <p >Pug</p>
+              <p class="px-3 fs-4">
+                <i class="fas fa-quote-left pe-2"></i>
+                We were at a crossroads and so after a few months of casually dating, we decided 
+                to end things. I was in love, but thought this love story wasn't meant to last. 
+                Fast forward 9 months, and we had become inseparable.
+              </p>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item pt-5">
+          <img class="rounded-circle shadow-1-strong mb-4"
+          src="images/golden-retrivers.jpg" alt="avatar"
+          style="width: 120px;" />
+          <div class="row d-flex justify-content-center pb-5">
+            <div class="col-lg-8 pb-4">
+              <h5 class="fw-semibold">Flow & Milla</h5>
+              <p >Golden Retriver</p>
+              <p class="px-3 fs-4">
+                <i class="fas fa-quote-left pe-2"></i>
+                I didn't think anything would ever come about from it, but one day 
+                I saw this stunning beauty come across the app. I Super Liked her, 
+                paying a dollar extra for the Super Like!
+              </p>
+          </div>
+          </div>
+          </div>
+        <div class="carousel-item pt-5">
+          <img class="rounded-circle shadow-1-strong mb-4"
+          src="images/poddles.jpg" alt="avatar"
+          style="width: 120px;" />
+          <div class="row d-flex justify-content-center pb-5">
+            <div class="col-lg-8 pb-4">
+              <h5 class="fw-semibold">Cookie & Fiancé</h5>
+              <p >Poddle</p>
+              <p class="px-3 fs-4">
+                <i class="fas fa-quote-left pe-2"></i>
+                I met my fiancé on tindog during the quarantine for COVID. 
+                She is from São Paulo, Brazil and I am from Canada. 
+                We are both puddles who fell madly in love.
+              </p>
+          </div>
+          </div>
+          </div>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing"> 
+    <div class="container">
+     <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
+       <h3 class="display-4 fw-normal fs-1">A Plan for Every Dog's Needs</h3>
+       <p class="fs-6 text-body-secondary">Simple and affordable prices for you and your dog.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Tindog Plus®</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title fs-1">$5<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 Monthly Likes </li>
+                <li><a>Passaport<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                  <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+                </svg></a></li>
+                <li><a>Rewind<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-r-circle" viewBox="0 5 16 16">
+                  <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.5 4.002h3.11c1.71 0 2.741.973 2.741 2.46 0 1.138-.667 1.94-1.495 2.24L11.5 12H9.98L8.52 8.924H6.836V12H5.5V4.002Zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417H6.835Z"></path>
+                </svg></a></li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Tindog Gold<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+              </svg></h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title fs-1">$20<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 Monthly Super Likes<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                  <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+                </svg></li>
+                <li>1 Monthly Boost</li>
+                <li>50 Monthly Likes</li>
+                
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-dark">
+            <div class="card-header py-3 text-bg-dark border-dark">
+              <h4 class="my-0 fw-normal">Tindog Platinium <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+              </svg></h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title fs-1">$39<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Note for Every Super Like</li>
+                <li>Free Monthly Super Likes<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-tm" viewBox="0 5 16 16">
+                  <path d="M5.295 11V5.995H7V5H2.403v.994h1.701V11h1.19zm3.397 0V7.01h.058l1.428 3.239h.773l1.42-3.24h.057V11H13.5V5.001h-1.2l-1.71 3.894h-.039l-1.71-3.894H7.634V11h1.06z"></path>
+                </svg></li>
+                <li>Unlimited Likes</li>
+
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+  </section>
+
+  <!-- Footer -->
+    <div class="container" id="footer-1">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-1">
+            <h5 class="fw-semibold">Legal</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cookie Policy</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Intellectual Property</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="fw-semibold">Careers</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers Portal</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tech Blog</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="fw-semibold">FAQ</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Destinations</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Press Room</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Promo Code</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Maria Akmei, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+            </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg></a></li>
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
